@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 font-sans;
+}
+
+.app-container {
+  @apply max-w-lg mx-auto mt-10 p-6 bg-white rounded-lg shadow-lg;
+}
