@@ -3,7 +3,7 @@ import { ConvertType, convertTitle } from '../utils/convert';
 
 function Task({ task, onTaskUpdate }) {
   const handleTitleChange = (type) => {
-    const updatedTitle = convertTitle(type, task.title);
+    const updatedTitle = convertTitle(task.title, type);
     onTaskUpdate(task.id, updatedTitle);
   };
 
